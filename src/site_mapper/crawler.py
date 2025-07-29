@@ -83,6 +83,18 @@ def crawl_page(browser: Browser, url: str, analysis_functions: list[Callable] = 
         Dictionary containing page content and extracted outlinks with analysis
     """
     page = browser.new_page()
+
+    # Set up request blocking for wayback.archive-it.org
+    def handle_route(route):
+        if "wayback.archive-it.org" in route.request.url:
+            print(f"Blocked request to: {route.request.url}")
+            route.abort()
+        else:
+            route.continue_()
+
+    # Enable request interception and set up the route handler
+    page.route("**/*", handle_route)
+
     try:
         page.goto(url)
 
@@ -167,4 +179,4 @@ if __name__ == "__main__":
     }
 
     link_graph = crawl_site("https://archive-it.org", scope_rules, analyzers)
-    print(json.dumps(link_graph, indent=4))
+    # print(json.dumps(link_graph, indent=4))
