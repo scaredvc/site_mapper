@@ -42,10 +42,8 @@ def css_classes(page: Page, element) -> list[str]:
     return page.evaluate("(element) => Array.from(element.classList)", element)
 
 
-def computed_styles(page: Page, element, properties: list[str] = None) -> dict[str, str]:
+def computed_styles(page: Page, element, properties: list[str] = ['color', 'background-color', 'font-size', 'font-weight']) -> dict[str, str]:
     """Get computed CSS styles for specified properties"""
-    if properties is None:
-        properties = ['color', 'background-color', 'font-size', 'font-weight']
 
     return page.evaluate("""
         (element, properties) => {

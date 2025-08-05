@@ -1,0 +1,8 @@
+crawler:
+  allowed_hosts:
+    - archive-it.org
+  page_limit: 10
+  delay: 1.0  # seconds between requests
+  max_retries: 3
+  output_dir: "./results"
+  log_level: "INFO"
