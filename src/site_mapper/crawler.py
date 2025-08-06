@@ -132,6 +132,25 @@ def crawl_page(browser: Browser, url: str, analysis_functions: Optional[List[Cal
         finally:
             page.close()
 
+def log_link_analysis(url: str, link_data: Dict[str, Any]):
+    """Log interesting information about analyzed links"""
+    analysis = link_data['analysis'].get('analyze_archive_it_link', {})
+    if not analysis:
+        return
+        
+    # If there are potential issues, log them
+    if analysis.get('potential_issues'):
+        issues = ', '.join(analysis['potential_issues'])
+        logging.info(f"Potential crawler trap at {url}: {issues}")
+        
+    # Log interesting URL patterns
+    if analysis.get('path_segments'):
+        path = '/'.join(analysis['path_segments'])
+        if 'organization' in path or 'collection' in path:
+            logging.info(f"Found detail page: {url}")
+        elif 'explore' in path or 'browse' in path:
+            logging.info(f"Found list page: {url}")
+
 def crawl_site(seed_url: str, scope_rules: Dict[str, Any], analysis_functions: Optional[List[Callable]] = None, 
                output_handler: Optional[OutputHandler] = None) -> Dict[str, List[Dict[str, Any]]]:
     """
@@ -143,6 +162,12 @@ def crawl_site(seed_url: str, scope_rules: Dict[str, Any], analysis_functions: O
         analysis_functions: List of functions to analyze links
         output_handler: Optional OutputHandler for saving results
     """
+    # Ensure our Archive-It analyzer is included
+    if analysis_functions is None:
+        analysis_functions = []
+    if analyze_archive_it_link not in analysis_functions:
+        analysis_functions.append(analyze_archive_it_link)
+    
     link_graph = {}
     visited = set()
     frontier_set = set()
@@ -189,6 +214,9 @@ def crawl_site(seed_url: str, scope_rules: Dict[str, Any], analysis_functions: O
 
                     # Add new URLs to the frontier
                     for link in result['outlinks']:
+                        # Log analysis results for this link
+                        log_link_analysis(link['absolute_url'], link)
+                        
                         if (link['absolute_url'] not in visited and 
                             link['absolute_url'] not in frontier_set):
                             if is_url_in_scope(link['absolute_url'], scope_rules):
