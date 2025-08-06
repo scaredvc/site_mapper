@@ -186,7 +186,7 @@ def crawl_site(seed_url: str, scope_rules: Dict[str, Any], analysis_functions: O
     add_to_frontier(seed_url)
     
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=False)
+        browser = pw.chromium.launch(headless=True)
 
         try:
             while page_url := pop_from_frontier():

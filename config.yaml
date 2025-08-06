@@ -1,7 +1,7 @@
 crawler:
   allowed_hosts:
     - archive-it.org
-  page_limit: 50
+  page_limit: 100
   delay: 1.0  # seconds between requests
   max_retries: 3
   output_dir: "./results"
