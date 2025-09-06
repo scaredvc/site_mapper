@@ -48,7 +48,7 @@ def computed_styles(page: Page, element, properties: list[str] = None) -> dict[s
         properties = ['color', 'background-color', 'font-size', 'font-weight']
 
     return page.evaluate("""
-        (element, properties) => {
+        ([element, properties]) => {
             const styles = window.getComputedStyle(element);
             const result = {};
             properties.forEach(prop => {
@@ -56,7 +56,7 @@ def computed_styles(page: Page, element, properties: list[str] = None) -> dict[s
             });
             return result;
         }
-    """, element, properties)
+    """, [element, properties])
 
 
 def link_position(page: Page, element) -> str:

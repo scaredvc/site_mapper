@@ -1,8 +1,9 @@
 import json
+import os
 from collections import deque
 from pprint import pprint
 from urllib.parse import urljoin, urlparse
-from typing import Any, Callable
+from typing import Any, Callable, Optional
 
 from playwright.sync_api import Page, sync_playwright, Browser
 
@@ -70,7 +71,8 @@ def extract_outlinks_with_analysis(page: Page, base_url: str, analysis_functions
     return outlinks
 
 
-def crawl_page(browser: Browser, url: str, analysis_functions: list[Callable] = None):
+def crawl_page(browser: Browser, url: str, analysis_functions: list[Callable] = None, 
+               capture_screenshot: bool = False, screenshot_dir: str = "screenshots"):
     """
     Crawl a page and extract outlinks with optional analysis functions.
 
@@ -78,6 +80,8 @@ def crawl_page(browser: Browser, url: str, analysis_functions: list[Callable] = 
         browser: Playwright browser instance
         url: URL to crawl
         analysis_functions: List of functions to run on each outlink element
+        capture_screenshot: Whether to capture a screenshot of the page
+        screenshot_dir: Directory to save screenshots
 
     Returns:
         Dictionary containing page content and extracted outlinks with analysis
@@ -98,14 +102,31 @@ def crawl_page(browser: Browser, url: str, analysis_functions: list[Callable] = 
     try:
         page.goto(url)
 
+        # Capture screenshot if requested
+        screenshot_path = None
+        if capture_screenshot:
+            os.makedirs(screenshot_dir, exist_ok=True)
+            # Create a safe filename from the URL
+            safe_filename = urlparse(url).path.replace('/', '_').replace('?', '_').replace('=', '_')
+            if not safe_filename or safe_filename == '_':
+                safe_filename = 'homepage'
+            screenshot_path = os.path.join(screenshot_dir, f"{safe_filename}.png")
+            page.screenshot(path=screenshot_path, full_page=True)
+            print(f"Screenshot saved: {screenshot_path}")
+
         # Extract outlinks with analysis
         outlinks = extract_outlinks_with_analysis(page, url, analysis_functions)
 
-        return {
+        result = {
             'url': url,
             'outlinks': outlinks,
             'outlinks_count': len(outlinks)
         }
+        
+        if screenshot_path:
+            result['screenshot_path'] = screenshot_path
+            
+        return result
     finally:
         page.close()
 

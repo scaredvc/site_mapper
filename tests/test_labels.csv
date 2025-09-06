@@ -1,0 +1,869 @@
+absolute_url,text,correct_label,notes,likely_content_hints,likely_filter_hints,ambiguous_hints
+https://archive-it.org/explore?show=Collections#aitMainContent,Skip Navigation,,,,,No clear indicators
+https://archive-it.org/,Archive-It,,,Text suggests content,,
+https://archive-it.org/,HOME,,,,,No clear indicators
+https://archive-it.org/explore,EXPLORE,,,,,No clear indicators
+https://archive-it.org/learn-more,LEARN MORE,,,,,No clear indicators
+https://archive-it.org/contact-us,CONTACT US,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&falpha=f_organizationType%3Atrue,Count,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_organizationType%3Atrue,(A-Z),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=organizationType%3AcollegesAndUniversities,Colleges & Universities,filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationType%3Ak12ProjectSchools,K-12 Program Schools,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=organizationType%3AlawLibraries,Law Libraries,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=organizationType%3AmuseumsAndArtLibraries,Museums & Art Libraries,filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationType%3AnationalInstitutions,National Institutions,filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationType%3Angos,NGOs,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=organizationType%3AotherInstitutions,Other Institutions,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=organizationType%3ApublicLibrariesAndLocalGovernments,Public Libraries & Local Governments,filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationType%3AstateArchivesAndLibraries,State Archives & Libraries,filter_link,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&falpha=f_organizationName%3Atrue,Count,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_organizationName%3Atrue,(A-Z),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=organizationName%3AWilliams+College,Williams College (272),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationName%3AFederal+Depository+Library+Program+Web+Archive,Federal Depository Library Program Web Archive (226),filter_link,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationName%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries (204),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationName%3AThe+Church+of+Jesus+Christ+of+Latter-day+Saints,The Church of Jesus Christ of Latter-day Saints (192),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=organizationName%3AMark+Graham,Mark Graham (152),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&flimit=f_organizationName%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Subject%3Atrue,Count,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Subject%3Atrue,(A-Z),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASocietyandculture,Society & Culture (2509),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AUniversitiesandlibraries,Universities & Libraries (2117),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AArtsandhumanities,Arts & Humanities (1512),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AScienceandhealth,Science & Health (910),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ABlogsandsocialmedia,Blogs & Social Media (904),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Subject%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Creator%3Atrue,Count,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Creator%3Atrue,(A-Z),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AWilliams+College,Williams College (193),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AINFO+284%3A+Tools%2C+Services%2C+and+Methods+for+Digital+Curation,"INFO 284: Tools, Services, and Methods for Digital Curation (84)",filter_link,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AIvy+Plus+Libraries+Confederation,Ivy Plus Libraries Confederation (37),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AAlabama+Department+of+Archives+and+History,Alabama Department of Archives and History (31),filter_link,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ARecords+Services,Records Services (30),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Creator%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Publisher%3Atrue,Count,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Publisher%3Atrue,(A-Z),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AUniversity+of+Wyoming,University of Wyoming (100),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AArchive-It.org,Archive-It.org (99),,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AWestern+Michigan+University,Western Michigan University (35),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AArchive-it,Archive-it (34),filter_link,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AAlabama+Department+of+Archives+and+History,Alabama Department of Archives and History (31),,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Publisher%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Contributor%3Atrue,Count,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Contributor%3Atrue,(A-Z),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3ADaniel+DelViscio,Daniel DelViscio (12),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AChoctaw+Cultural+Center+Archives,Choctaw Cultural Center Archives (8),,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AHazlett+Henderson,Hazlett Henderson (7),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AU.S.+Department+of+Agriculture,U.S. Department of Agriculture (7),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AU.S.+Environmental+Protection+Agency,U.S. Environmental Protection Agency (7),filter_link,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Contributor%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Date%3Atrue,Count,filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Date%3Atrue,(A-Z),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2020,2020 (83),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2021,2021 (79),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2023,2023 (76),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2023-,2023- (65),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2018,2018 (50),filter_link,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Date%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Type%3Atrue,Count,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Type%3Atrue,(A-Z),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3ACollection,Collection (481),,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website (314),,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsites,Websites (112),,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AInteractive+Resource,Interactive Resource (104),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AText,Text (77),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Type%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Format%3Atrue,Count,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Format%3Atrue,(A-Z),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html (368),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AWebsites,Websites (161),,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AWarc,Warc (98),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AImage%2Fjpeg,Image/jpeg (56),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText,Text (54),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Format%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Language%3Atrue,Count,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Language%3Atrue,(A-Z),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English (1816),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEng,Eng (324),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3ASpanish,Spanish (103),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEn,En (96),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AIrish,Irish (70),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Language%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Coverage%3Atrue,Count,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Coverage%3Atrue,(A-Z),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AUnited+States,United States (65),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AMichigan,Michigan (32),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AQuarterly,Quarterly (26),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AKalamazoo+%28Mich.%29,Kalamazoo (Mich.) (25),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3ACanada,Canada (24),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Coverage%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Collector%3Atrue,Count,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&falpha=f_meta_Collector%3Atrue,(A-Z),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AU.S.+Government+Publishing+Office,U.S. Government Publishing Office (220),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries (191),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ANational+Library+of+Ireland,National Library of Ireland (138),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ATennessee+State+Library+and+Archives,Tennessee State Library and Archives (105),,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AUniversity+of+Wyoming+American+Heritage+Center,University of Wyoming American Heritage Center (100),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&flimit=f_meta_Collector%3A15,More ▼,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Less ▲,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections,Clear,,,,,No clear indicators
+https://archive-it.org/explore?show=Organizations,Collecting Organizations,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections,Collections,,,Text suggests content,,
+https://archive-it.org/explore?show=Sites,Sites,,,,,No clear indicators
+https://archive-it.org/explore?show=ArchivedPages,Search Page Text,,,,Text suggests filtering/sorting,
+https://archive-it.org/explore?show=Collections&page=2&totalResultCount=11483,Next Page ►,,,,Text suggests filtering/sorting; URL suggests filtering/sorting,
+https://archive-it.org/explore?show=Collections&totalResultCount=11483&sort=f_collectionName.desc,Collection Name (Z-A),,,Text suggests content; Long descriptive text,URL suggests filtering/sorting,Conflicting indicators
+https://archive-it.org/explore?show=Collections&totalResultCount=11483&sort=f_organizationName.asc,Organization (A-Z),,,,URL suggests filtering/sorting,
+https://archive-it.org/explore?show=Collections&totalResultCount=11483&sort=f_organizationName.desc,Organization (Z-A),,,,URL suggests filtering/sorting,
+https://archive-it.org/collections/4542,2014 Oklahoma Campaigns - State House,content_link,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/6087,American Library Association Web Archive (University Archives – University of Illinois),content_link,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/997,The University Library at the University of Illinois Urbana-Champaign,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAmerican+Library+Association,American Library Association,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APublic+Programs,Public Programs,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AConferences,Conferences,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AOffices,Offices,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AALA+Publications,ALA Publications,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AIntellectual+Freedom,Intellectual Freedom,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ADescriptive+Cataloging+of+Rare+Materials,Descriptive Cataloging of Rare Materials,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AProfessional+Development,Professional Development,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AMidwinter+Meeting,Midwinter Meeting,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AConferences,Conferences,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAdvocacy,Advocacy,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ABlogs,Blogs,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ALibraries,Libraries,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ALibrarians,Librarians,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AAmerican+Library+Association,American Library Association,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AAmerican+Library+Association+Archives,American Library Association Archives,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4266,Brazilian Web Engines (1997-2013),content_link,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/776,Universidade Federal do Estado do Rio de Janeiro,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AcomputersAndTechnology,Computers & Technology,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AWeb+History%2C+Search+Engines%2C+Brazil,"Web History, Search Engines, Brazil",,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AFederal+State+University+of+Rio+de+Janeiro+%28UNIRIO%29,Federal State University of Rio de Janeiro (UNIRIO),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3APortuguese,Portuguese,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ACamila+G.+Dantas,Camila G. Dantas,,,,DOM structure suggests filter,
+https://archive-it.org/collections/4486,National Disaster and Digital Preservation: 9/11 and the Internet,content_link,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/787,"University of Pittsburgh, School of Information Sciences",,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AcomputersAndTechnology,Computers & Technology,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASeptember+11+Terrorist+Attacks%2C+2001,"September 11 Terrorist Attacks, 2001",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AInnovation+and+Sustainability+Student+Working+Group,Innovation and Sustainability Student Working Group,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AInternet+Archive,Internet Archive,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3ACaptured+between+March+29%2C+2014+and+April+12%2C+2014.,"Captured between March 29, 2014 and April 12, 2014.",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3ACollection,Collection,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2014-03-29,2014-03-29,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AUniversity+of+Pittsburgh%2C+School+of+Information,"University of Pittsburgh, School of Information",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/6086,University of Illinois at Urbana-Champaign Web Archives,content_link,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/997,The University Library at the University of Illinois Urbana-Champaign,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AVeterans+%26+ROTC,Veterans & ROTC,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ATraining+Programs+%26+Professional+Institutes,Training Programs & Professional Institutes,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AHospital+%26+Health+System,Hospital & Health System,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAlumni,Alumni,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ATraining+Programs+%26+Professional+Institute,Training Programs & Professional Institute,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AInformation+Technology,Information Technology,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AInternational+Programs+%26+Studies,International Programs & Studies,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AResearch+Applications,Research Applications,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AComputer+Science,Computer Science,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAviation,Aviation,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AStudents,Students,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAthletics,Athletics,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AResearch+Centers+%26+Laboratories,Research Centers & Laboratories,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ANews%2C+Press+%26+Affiliated+Publications,"News, Press & Affiliated Publications",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAdvancement,Advancement,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AWomen+%26+Gender,Women & Gender,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ARace+%26+Ethnicity,Race & Ethnicity,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AGraduate+Students,Graduate Students,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ADisability+Services,Disability Services,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AMuseums%2C+Libraries+%26+Culture,"Museums, Libraries & Culture",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AFaculty,Faculty,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AResearch+Groups+%26+Institutes,Research Groups & Institutes,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ACorporate+%26+Public+Outreach,Corporate & Public Outreach,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAgriculture,Agriculture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAthletics,Athletics,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AUniversity+Administration,University Administration,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AUniversity+of+Illinois+at+Urbana-Champaign,University of Illinois at Urbana-Champaign,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AUniversity+of+Illinois,University of Illinois,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3ANew+Zealand,New Zealand,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AAustralia,Australia,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AIndia,India,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3ASpain,Spain,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AUnited+Kingdom,United Kingdom,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AUnited+States,United States,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AColombia,Colombia,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3ACanada,Canada,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AChampaign%2C+IL,"Champaign, IL",,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AUniversity+Archives%2C+University+of+Illinois+at+Urbana-Champaign,"University Archives, University of Illinois at Urbana-Champaign",,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/3715,reTHINK PSU: Provost's Challenge 2013-2014,content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/708,Portland State University,,,Long descriptive text,,
+https://archive-it.org/collections/15098,!st collection,content_link,,URL contains /collections/; Text suggests content,,
+https://archive-it.org/organizations/1067,Political Campaign Archive,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/collections/8142,"""Fake News""",content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/1028,Mark Graham,,,,,No clear indicators
+https://archive-it.org/collections/12099,"""Fake News"" II (2019)",content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1028,Mark Graham,,,,,No clear indicators
+https://archive-it.org/collections/18935,"""In Search of Native Azaleas"": Henry Skinner's 1951 Southern Collecting Trip web archive",content_link,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/887,University of Virginia,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AAmerican+Rhododendron+Society,American Rhododendron Society,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3A163.2+megabytes+archived,163.2 megabytes archived,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWeb+sites,Web sites,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2005,2005,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AAlbert+and+Shirley+Small+Special+Collections+Library,Albert and Shirley Small Special Collections Library,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Access_Note%3ADue+to+their+nature%2C+archived+websites+and+webpages+do+not+have+the+same+search+functionality+as+do+live+websites.+Users+will+not+be+able+to+search+for+content+within+the+scanned+documents+in+the+archived+site.,"Due to their nature, archived websites and webpages do not have the same search functionality as do live websites. Users will not be able to search for content within the scanned documents in the archived site.",,,Text suggests content; Long descriptive text,Text suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Access_Note%3AArchive-It+can+be+difficult+to+navigate.+Captured+websites+are+not+arranged+or+displayed+in+any+particular+order%2C+and+sub-pages+from+the+same+broader+site+may+not+be+presented+together.+Not+all+pages+within+a+site+may+have+been+captured.+After+clicking+on+the+desired+link+from+the+list+of+websites%2C+the+webpages+as+they+were+archived+can+be+viewed+by+clicking+on+the+hyperlinked+date-of-capture+above+the+calendar.+Clicking+the+url+hyperlink+will+navigate+out+of+the+Archive-It+website+to+the+live+webpage+if+it+still+exists.,"Archive-It can be difficult to navigate. Captured websites are not arranged or displayed in any particular order, and sub-pages from the same broader site may not be presented together. Not all pages within a site may have been captured. After clicking on the desired link from the list of websites, the webpages as they were archived can be viewed by clicking on the hyperlinked date-of-capture above the calendar. Clicking the url hyperlink will navigate out of the Archive-It website to the live webpage if it still exists.",,,Text suggests content; Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/1577,"""Moon the Balloon"" -- Privacy and Surveillance on the Border, 2009",content_link,,URL contains /collections/; Long descriptive text,Text suggests filtering/sorting,Conflicting indicators
+https://archive-it.org/organizations/86,Web Curator of Atlantis,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AcomputersAndTechnology,Computers & Technology,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/collections/8627,"""On the Glorious Hill"" - Lutheran Theological Seminary blog",content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/687,Gettysburg College,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AHistory+of+the+Lutheran+Theological+Seminary+at+Gettysburg,History of the Lutheran Theological Seminary at Gettysburg,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/7966,#HoldAugieAccountable Protest Collection,content_link,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/1136,Augustana College,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ABlack+lives+matter+movement,Black lives matter movement,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ACollege+students+--+Political+activity+--+Illinois+--+21st+century,College students -- Political activity -- Illinois -- 21st century,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ADemonstrations+--+Illinois+--+Rock+Island+--+21st+century,Demonstrations -- Illinois -- Rock Island -- 21st century,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AFreedom+of+speech,Freedom of speech,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AGraffiti+--+Political+aspects+--+United+States,Graffiti -- Political aspects -- United States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APresidents+--+United+States+--+Election+--+2016,Presidents -- United States -- Election -- 2016,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASocial+justice,Social justice,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AStudent+movements+--+Illinois+--+Rock+Island+--+21st+century,Student movements -- Illinois -- Rock Island -- 21st century,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ATrump%2C+Donald%2C+1946-,"Trump, Donald, 1946-",,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AAugustana+College+Special+Collections,Augustana College Special Collections,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AAugustana+College+Special+Collections,Augustana College Special Collections,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Source%3AMSS+408+Hold+Augie+Accountable+Protest+collection%2C+Special+Collections%2C+Augustana+College%2C+Rock+Island%2C+Illinois.,"MSS 408 Hold Augie Accountable Protest collection, Special Collections, Augustana College, Rock Island, Illinois.",,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AInteractive+Resource,Interactive Resource,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2014-2016,2014-2016,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Finding_Aid_Link%3Ahttp%3A%2F%2Faugustana.libraryhost.com%2Frepositories%2F2%2Fresources%2F234,http://augustana.libraryhost.com/repositories/2/resources/234,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AAugustana+College+Special+Collections,Augustana College Special Collections,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AAugustana+College+%28Rock+Island%2C+Ill.%29.+Black+Student+Union,"Augustana College (Rock Island, Ill.). Black Student Union",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AAugustana+College+%28Rock+Island%2C+Ill.%29.+College+Republicans,"Augustana College (Rock Island, Ill.). College Republicans",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AAugustana+College+%28Rock+Island%2C+Ill.%29.+Latinx+Unidos,"Augustana College (Rock Island, Ill.). Latinx Unidos",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AAugustana+College+%28Rock+Island%2C+Ill.%29.+Interfaith+Understanding,"Augustana College (Rock Island, Ill.). Interfaith Understanding",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AAugustana+College+%28Rock+Island%2C+Ill.%29.+Muslim+Student+Association,"Augustana College (Rock Island, Ill.). Muslim Student Association",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3ABahls%2C+Steven+C.,"Bahls, Steven C.",,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/collections/22357,#JesusChristIsRelief Facebook collection,content_link,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/715,The Church of Jesus Christ of Latter-day Saints,,,Long descriptive text,,
+https://archive-it.org/collections/14975,#VoicesofCle Public Arts Project,content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/939,Cleveland Public Library,,,Long descriptive text,,
+https://archive-it.org/collections/11531,#Waking the Feminists,content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1444,National Library of Ireland,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ACampaigns,Campaigns,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ATheatre,Theatre,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AWebsites,Websites,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3ACollection,Collection,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2018,2018,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ANational+Library+of+Ireland,National Library of Ireland,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4783,#blacklivesmatter Web Archive,content_link,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/89,Internet Archive Global Events,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/collections/16922,#blackpoetsspeakout-archive,content_link,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/1132,James Madison University,,,Long descriptive text,,
+https://archive-it.org/collections/17024,#blackpoetsspeakout-test,content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1132,James Madison University,,,Long descriptive text,,
+https://archive-it.org/collections/22238,#CAAPhilippines,content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/2454,University of the Philippines School of Library and Information Studies,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-National,Government - National,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAviation+Accident+and+Incident+Investigation,Aviation Accident and Incident Investigation,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APhilippine+Airports,Philippine Airports,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ACivil+Aviation,Civil Aviation,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APhilippine+Aviation,Philippine Aviation,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAviation+Safety,Aviation Safety,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ACAAP,CAAP,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AWeb,Web,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/collections/16500,#DaytonStrong,content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/1992,Dayton Metro Library,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASpontaneous+Events,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ANatural+Disasters,Natural Disasters,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ADayton+Metro+Library,Dayton Metro Library,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3ADayton+Metro+Library,Dayton Metro Library,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AArchived+Website,Archived Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/15734,#givethanks,content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/715,The Church of Jesus Christ of Latter-day Saints,,,Long descriptive text,,
+https://archive-it.org/collections/7515,#homesnothondas Tweets (Homes not Hondas),,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/990,Dalhousie University Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-Cities,Government - Cities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AUrban+planning,Urban planning,,,,DOM structure suggests filter,
+https://archive-it.org/collections/14737,#MeToo,content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/1418,Concordia University,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AConcordia+University,Concordia University,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AFrench,French,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ARecords+Management+and+Archives,Records Management and Archives,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/11503,#metoo National News Collection,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/937,Schlesinger Library,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASocial+movements,Social movements,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AFeminism,Feminism,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASex+discrimination,Sex discrimination,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASexual+harassment,Sexual harassment,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3AOctober+2017+-+September+2019,October 2017 - September 2019,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3ASpanish,Spanish,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AArthur+and+Elizabeth+Schlesinger+Library+on+the+History+of+Women+in+America%2C+Radcliffe+Institute+for+Advanced+Study%2C+Harvard+University,"Arthur and Elizabeth Schlesinger Library on the History of Women in America, Radcliffe Institute for Advanced Study, Harvard University",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/12705,#metoo State and Local News Collection,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/937,Schlesinger Library,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASocial+movements,Social movements,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AFeminism,Feminism,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASex+discrimination,Sex discrimination,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASexual+harassment,Sexual harassment,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3AOctober+2017+-+September+2019,October 2017 - September 2019,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3ASpanish,Spanish,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AArthur+and+Elizabeth+Schlesinger+Library+on+the+History+of+Women+in+America%2C+Radcliffe+Institute+for+Advanced+Study%2C+Harvard+University,"Arthur and Elizabeth Schlesinger Library on the History of Women in America, Radcliffe Institute for Advanced Study, Harvard University",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/10866,#metoo Web Archives Collection,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/937,Schlesinger Library,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASocial+movements,Social movements,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AFeminism,Feminism,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASex+discrimination,Sex discrimination,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASexual+harassment,Sexual harassment,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3ASpanish,Spanish,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AArthur+and+Elizabeth+Schlesinger+Library+on+the+History+of+Women+in+America%2C+Radcliffe+Institute+for+Advanced+Study%2C+Harvard+University,"Arthur and Elizabeth Schlesinger Library on the History of Women in America, Radcliffe Institute for Advanced Study, Harvard University",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/9674,#Syllabus,,,URL contains /collections/,,
+https://archive-it.org/organizations/1309,Schomburg Center for Research in Black Culture,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AReading+lists,Reading lists,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ACollection+study,Collection study,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASelf-Education,Self-Education,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASocial+Justice,Social Justice,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASyllabi,Syllabi,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Preferred_Citation%3A%5BItem%5D%2C+Schomburg+Center+for+Research+in+Black+Culture%2C+%23Syllabus+Web+Archive+Collection+%E2%80%93+Archive-It%2C+The+New+York+Public+Library,"[Item], Schomburg Center for Research in Black Culture, #Syllabus Web Archive Collection – Archive-It, The New York Public Library",,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ASchomburg+Center+for+Research+in+Black+Culture,Schomburg Center for Research in Black Culture,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AMakiba+Foster,Makiba Foster,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AZakiya+Collier,Zakiya Collier,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Related_Resource%3Ahttps%3A%2F%2Fwww.nypl.org%2Fspotlight%2Fschomburg-syllabus,https://www.nypl.org/spotlight/schomburg-syllabus,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/20668,'62 Center for Theatre and Dance website,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/750,Williams College,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AWilliams+College,Williams College,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AWilliams+College,Williams College,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/collections/7269,007-Spies,,,URL contains /collections/,,
+https://archive-it.org/organizations/667,Rocky Hill School,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASpies,Spies,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ARocky+Hill+School+Students,Rocky Hill School Students,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3AApril+11%2C+2016,"April 11, 2016",,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Archive-It_Program_Year%3A2015-2016+Student+Collections,2015-2016 Student Collections,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ARocky+Hill+School+Students,Rocky Hill School Students,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/13433,1,,,URL contains /collections/,Pagination control,Conflicting indicators
+https://archive-it.org/organizations/421,"University of Michigan, School of Information",,,Long descriptive text,,
+https://archive-it.org/collections/9624,1-time Oakland Local,,,URL contains /collections/,,
+https://archive-it.org/organizations/1067,Political Campaign Archive,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/collections/15658,1. MOCA GA Websites,,,URL contains /collections/; Text suggests content,,
+https://archive-it.org/organizations/1165,Museum of Contemporary Art Georgia (MOCA GA),,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/collections/9699,1. New School Archives (2016-ongoing),,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/1061,The New School,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ANew+School+Archives+and+Special+Collections,New School Archives and Special Collections,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ANew+School+%28New+York%2C+N.Y.%29,"New School (New York, N.Y.)",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4450,10 years on Mars,,,URL contains /collections/,,
+https://archive-it.org/organizations/421,"University of Michigan, School of Information",,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AcomputersAndTechnology,Computers & Technology,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Amars+rovers,mars rovers,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Aspace+exploration,space exploration,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Amars+exploration,mars exploration,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AMars,Mars,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Aspace,space,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ANASA,NASA,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Amars+images,mars images,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ACourse+SI639%3A+Web+Archiving,Course SI639: Web Archiving,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3Aimage,image,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3Atext,text,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3Avideo,video,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Aweb+pages,web pages,,,Text suggests content,Text suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Ahome+pages,home pages,,,,Text suggests filtering/sorting; DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Asocial+media,social media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Amicroblog,microblog,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Anews+feed,news feed,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Anews+article,news article,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Ablog,blog,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3AApril+2014,April 2014,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ACecilia+Caride,Cecilia Caride,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AStephanie+Lafayette,Stephanie Lafayette,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AKathryn+Horne,Kathryn Horne,,,,DOM structure suggests filter,
+https://archive-it.org/collections/12847,100 Resilient Cities,,,URL contains /collections/,,
+https://archive-it.org/organizations/446,The Rockefeller Foundation,,,Long descriptive text,,
+https://archive-it.org/collections/10531,100 Years of Women at the Yale School of Medicine,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1048,Yale University-Manuscripts and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/collections/29996,100 anos en Sudamerica,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/715,The Church of Jesus Christ of Latter-day Saints,,,Long descriptive text,,
+https://archive-it.org/collections/2845,"100,000 Poets",,,URL contains /collections/,,
+https://archive-it.org/organizations/565,"100,000 Poets",,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/collections/2485,1000memories,,,URL contains /collections/,,
+https://archive-it.org/organizations/532,1000 Memories,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/collections/2782,1000memories Official Archive,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/532,1000 Memories,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/collections/8998,13 Sites Blocked by Egypt,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1028,Mark Graham,,,,,No clear indicators
+https://archive-it.org/collections/19642,14th General Assembly,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/2098,Inuit Circumpolar Council - Alaska,,,Long descriptive text,,
+https://archive-it.org/collections/16283,150 Years of Women at Berkeley,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/985,University of California Berkeley,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AWomen+--+History+--+20th+century,Women -- History -- 20th century,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AUniversity+of+California%2C+Berkeley.,"University of California, Berkeley.",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AUniversity+of+California%2C+Berkeley.,"University of California, Berkeley.",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3ABerkeley+%28Calif.%29,Berkeley (Calif.),,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWeb+archives,Web archives,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2021,2021,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AUniversity+of+California%2C+Berkeley.,"University of California, Berkeley.",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AThe+Bancroft+Library+University+of+California%2C+Berkeley+Berkeley%2C+CA+94720-6000+Phone%3A+%28510%29+642-6481+Fax%3A+%28510%29+642-7589+Email%3A+bancref%40library.berkeley.edu,"The Bancroft Library University of California, Berkeley Berkeley, CA 94720-6000 Phone: (510) 642-6481 Fax: (510) 642-7589 Email: bancref@library.berkeley.edu",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3Aeng,eng,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3855,150th News Websites,,,URL contains /collections/; Text suggests content,,
+https://archive-it.org/organizations/687,Gettysburg College,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3987,150th Websites and Blogs,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/687,Gettysburg College,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/collections/942,1853/54 Nashville City Directory,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/132,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-Cities,Government - Cities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ATennessee+State+Library+and+Archives,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/1320,1857 Nashville City Directory,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/132,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ANashville+business,Nashville business,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ATennessee+State+Library+and+Archives,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ATennessee+State+Library+and+Archives,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/1633,1865 Nashville City Directory,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/132,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ATSLA,TSLA,,,,DOM structure suggests filter,
+https://archive-it.org/collections/1708,1866 Nashville City Directory,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/132,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-Cities,Government - Cities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ATSLA,TSLA,,,,DOM structure suggests filter,
+https://archive-it.org/collections/1771,1867 Nashville City Directory,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/132,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ATom+Lamb,Tom Lamb,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2010-01-12+00%3A00%3A00,2010-01-12 00:00:00,,,,DOM structure suggests filter,
+https://archive-it.org/collections/1823,1868 Nashville City Directory,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/132,Tennessee State Library and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-Cities,Government - Cities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/collections/11841,1968 Walkout 50th Anniversary,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1030,Brown University,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2018,2018,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ABrown+University,Brown University,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Access_Note%3AArchived+websites+are+made+accessible+for+purposes+of+education+and+research.+If+you+hold+the+rights+to+materials+included+in+our+archived+website+collections+that+you+or+your+community+did+not+give+permission+to+and+would+like+removed%2C+contact+John+Hay+Library+at+hay%40brown.edu.+Please+describe+and+include+URLs+to+the+material+in+question.,"Archived websites are made accessible for purposes of education and research. If you hold the rights to materials included in our archived website collections that you or your community did not give permission to and would like removed, contact John Hay Library at hay@brown.edu. Please describe and include URLs to the material in question.",,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/10163,1990s Fashion and Its Resurgence in the 2010s,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1374,Washington and Lee Educational Partnership,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3A1990s+fashion,1990s fashion,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AFashion,Fashion,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ATrends,Trends,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ACelebrities,Celebrities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ARevival,Revival,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AGrunge,Grunge,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ACindy+Kim,Cindy Kim,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AWashington+and+Lee+Educational+Partnership,Washington and Lee Educational Partnership,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3A1990s,1990s,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3Atext,text,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AHTML,HTML,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AJPEG,JPEG,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3APDF,PDF,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3ACollection,Collection,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3ACollected+2018-05-06,Collected 2018-05-06,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ACindy+Kim,Cindy Kim,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Photograph_link%3Ahttp%3A%2F%2Fwww.thesugareef.com%2F802-2%2F,http://www.thesugareef.com/802-2/,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/9636,19th National Congress of the Communist Party of China,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/153,National Library of Australia,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-National,Government - National,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2017+October,2017 October,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AChinese,Chinese,,,,DOM structure suggests filter,
+https://archive-it.org/collections/8082,19th Ward Community Association,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/843,University of Rochester,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/collections/15661,2. Georgia Artist Websites,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/1165,Museum of Contemporary Art Georgia (MOCA GA),,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/collections/8620,2. New School Affiliated Publications (2017-2024),,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1061,The New School,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AartsAndHumanities,Arts & Humanities,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ANew+School+Archives+and+Special+Collections.,New School Archives and Special Collections.,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ANew+School+%28New+York%2C+N.Y.%29.,"New School (New York, N.Y.).",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/872,2007 California Wildfires,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/130,University of North Carolina,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AUniversity+of+North+Carolina,University of North Carolina,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/16625,2007 FAS Promotion and Tenure committee report on tenure policies,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1048,Yale University-Manuscripts and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/collections/21320,2007 Southern California Wildfires Web Archive,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/1572,California Digital Library,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/collections/873,2008 Elections in North Carolina,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/130,University of North Carolina,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AUniversity+of+North+Carolina,University of North Carolina,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/871,2008 Olympics,,,URL contains /collections/,,
+https://archive-it.org/organizations/130,University of North Carolina,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AUniversity+of+North+Carolina,University of North Carolina,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/1441,2009 Flood Coverage,,,URL contains /collections/,,
+https://archive-it.org/organizations/163,Concordia College,,,,,No clear indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ALisa+sjoberg,Lisa sjoberg,,,,DOM structure suggests filter,
+https://archive-it.org/collections/6216,2009 H1N1 Influenza A (Swine Flu) Outbreak,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/982,University of California San Diego,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AH1N1+influenza,H1N1 influenza,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AUC+San+Diego+Library,UC San Diego Library,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2009,2009,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/collections/1857,2010 Formula 1 Season,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/421,"University of Michigan, School of Information",,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/collections/2191,2010 Lifestyles/Fads,,,URL contains /collections/,,
+https://archive-it.org/organizations/492,Chief Umtuch Middle School,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AcomputersAndTechnology,Computers & Technology,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3ABeth+Doughty%27s+Aspire+Class,Beth Doughty's Aspire Class,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/2080,2010 Oklahoma Political Campaigns,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ACandidates%27+Campaigns,Candidates' Campaigns,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/2274,2010 Oklahoma Special Election Candidates,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AOklahoma+Special+Election+Candidates,Oklahoma Special Election Candidates,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/2123,2010 Oklahoma State Questions and Positions,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AVarious+Authors,Various Authors,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/6215,2010 Southern California Mexico Earthquakes,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/982,University of California San Diego,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AUC+San+Diego+Library,UC San Diego Library,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AUC+San+Diego+Library,UC San Diego Library,,,,DOM structure suggests filter,
+https://archive-it.org/collections/5711,2010 Winter Olympics,,,URL contains /collections/,,
+https://archive-it.org/organizations/769,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AWinter+Olympic+Games+%2821st+%3A+2010+%3A+Vancouver%2C+B.C.%29,"Winter Olympic Games (21st : 2010 : Vancouver, B.C.)",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AOlympics,Olympics,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/21324,2010 Winter Olympics,,,URL contains /collections/,,
+https://archive-it.org/organizations/1572,California Digital Library,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/collections/2124,2010 Wisconsin Gubernatorial Campaign,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/478,Wisconsin Historical Society,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AWisconsin.+Governor+%282011-+%3A+Walker%29,Wisconsin. Governor (2011- : Walker),,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ABarrett%2C+Thomas+M.%2C+1953-,"Barrett, Thomas M., 1953-",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APolitical+candidates--Wisconsin,Political candidates--Wisconsin,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APolitical+campaigns--Wisconsin,Political campaigns--Wisconsin,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APolitical+campaigns--United+States--2000-2010,Political campaigns--United States--2000-2010,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AAdvertising%2C+Political.,"Advertising, Political.",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AWisconsin+Historical+Society,Wisconsin Historical Society,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AWisconsin+Historical+Society,Wisconsin Historical Society,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3A2010,2010,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AManuscripts,Manuscripts,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2010,2010,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3101,2010-2011 Arab Spring,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/543,University of South Florida School of Information,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-National,Government - National,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/collections/2450,2011 Japan Earthquake,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/421,"University of Michigan, School of Information",,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AEarthquake+damage--Japan,Earthquake damage--Japan,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AEarthquake+aftershocks,Earthquake aftershocks,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ATsunami+damage--Japan,Tsunami damage--Japan,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AEarthquake+magnitude,Earthquake magnitude,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AEarthquake+relief,Earthquake relief,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3ALiu+Liu%2C+James+Perry%2C+Yiwei+Wang,"Liu Liu, James Perry, Yiwei Wang",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AInternet+Archive,Internet Archive,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AHTML%2C+JPG%2C+PDF,"HTML, JPG, PDF",,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWeb+Archive,Web Archive,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4839,2011 Tornado Outbreak,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/130,University of North Carolina,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AblogsAndSocialMedia,Blogs & Social Media,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3093,2012 London Olympics,,,URL contains /collections/,,
+https://archive-it.org/organizations/543,University of South Florida School of Information,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3240,2012 Oklahoma Campaigns - Federal and State Wide,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USFederal,Government - US Federal,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/3247,2012 Oklahoma Campaigns - State House,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian_%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/3244,2012 Oklahoma Campaigns - State Senate,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/3323,2012 Presidential Debate,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/656,University of Denver Special Collections and Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AuniversitiesAndLibraries,Universities & Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USFederal,Government - US Federal,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/15582,2012 Referendum on Constitution - After,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/1851,KRIA - The Icelandic Constitution Archives,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ADirect+democracy,Direct democracy,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AReferendum,Referendum,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AIceland.+Constitution,Iceland. Constitution,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AIceland.+Stjo%CC%81rnarskra%CC%81,Iceland. Stjórnarskrá,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3AIceland,Iceland,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3APublished+fall+2011+-+fall+2012,Published fall 2011 - fall 2012,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AIcelandic,Icelandic,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AKRIA+-+The+Icelandic+Constitution+Archives,KRIA - The Icelandic Constitution Archives,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/3015,2012 Russian Presidential Election,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/89,Internet Archive Global Events,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/collections/5713,2012 Summer Olympics,,,URL contains /collections/,,
+https://archive-it.org/organizations/769,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AOlympic+Games+%2830th+%3A+2012+%3A+London%2C+England%29,"Olympic Games (30th : 2012 : London, England)",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AOlympics,Olympics,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/5712,2012 Summer Paralympics,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/769,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AParalympic+Games,Paralympic Games,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AOlympics,Olympics,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AParalympic+Games+%2814th+%3A+2012+%3A+London%2C+England%29,"Paralympic Games (14th : 2012 : London, England)",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/3243,2012 Wisconsin Senatorial Campaign,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/478,Wisconsin Historical Society,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USFederal,Government - US Federal,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AElections--Wisconsin.,Elections--Wisconsin.,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APolitical+campaigns--Wisconsin.,Political campaigns--Wisconsin.,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AWisconsin+Historical+Society,Wisconsin Historical Society,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AWisconsin+Historical+Society,Wisconsin Historical Society,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AManuscripts,Manuscripts,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2012,2012,,,,DOM structure suggests filter; Pagination control,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3649,2013 Boston Marathon Bombing,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/89,Internet Archive Global Events,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3790,2013 Federal Government Websites,,,URL contains /collections/; Text suggests content; Long descriptive text,,
+https://archive-it.org/organizations/734,University of British Columbia,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Coverage%3ACanada,Canada,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2013-07,2013-07,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AVancouver+%3A+University+of+British+Columbia.+Library,Vancouver : University of British Columbia. Library,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/3611,2013 Supreme Court Hearings on DOMA/Prop 8,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/89,Internet Archive Global Events,,,Text suggests content; Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USFederal,Government - US Federal,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-National,Government - National,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4974,2014 Ecology and Enviroment,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/498,Mount Dora High School,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AscienceAndHealth,Science & Health,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Archive-It_Program_Year%3A2014-2015+Student+Collections,2014-2015 Student Collections,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4625,2014 General Elections,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/775,2014 Congressional Election Cycle,,,Long descriptive text,,
+https://archive-it.org/collections/5010,2014 Iguala Kidnapping and Massacre,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/858,Emporia State University Educational Account 2,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-National,Government - National,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AspontaneousEvents,Spontaneous Events,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AIguala,Iguala,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AKidnapping,Kidnapping,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3Atext%2Fhtml,text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2014-11-08,2014-11-08,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AA.+Beatie,A. Beatie,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AD.+Canfield-Riggs,D. Canfield-Riggs,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AJ.+Howard,J. Howard,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AM.+Patterson,M. Patterson,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AG.+Swierczek,G. Swierczek,,,,DOM structure suggests filter,
+https://archive-it.org/collections/9543,2014 Indian Parliamentary Elections,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/536,Old Dominion University,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/collections/3672,2014 Oklahoma Campaigns - Federal and State Wide,content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USFederal,Government - US Federal,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta__Metadata_Digital_Librarian_%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4543,2014 Oklahoma Campaigns - State Senate,content_link,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/449,Oklahoma Department of Libraries,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment,Government,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-USStates,Government - US States,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AText%2Fhtml,Text/html,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3AWebsite,Website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Metadata_Digital_Librarian%3AClifton+Broadworth,Clifton Broadworth,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Notice%3ASocial+media+websites+may+not+be+complete,Social media websites may not be complete,,,Text suggests content; Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AOklahoma+Department+of+Libraries,Oklahoma Department of Libraries,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4265,2014 Primaries,content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/775,2014 Congressional Election Cycle,,,Long descriptive text,,
+https://archive-it.org/collections/4837,2014 Scottish Independence Referendum,,,URL contains /collections/; Long descriptive text,,
+https://archive-it.org/organizations/130,University of North Carolina,,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ApoliticsAndElections,Politics & Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3Agovernment-Counties,Government - Counties,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AElections,Elections,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3APolitics,Politics,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AScotland,Scotland,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AUnited+Kingdom,United Kingdom,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AEuropean+Union,European Union,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AAlex+Schaffer,Alex Schaffer,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Publisher%3AUniversity+of+North+Carolina,University of North Carolina,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3APDF,PDF,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3AVideo,Video,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Format%3Awebsite%2Fhtml,website/html,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Type%3Awebsite,website,,,Text suggests content,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3A2014-09-18,2014-09-18,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Language%3AEnglish,English,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Contributor%3AAlex+Schaffer,Alex Schaffer,,,,DOM structure suggests filter,
+https://archive-it.org/collections/4200,2014 Winter Olympics,content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/769,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3ASports,Sports,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AOlympics,Olympics,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AWinter+Olympic+Games+%2822nd+%3A+2014+%3A+Sochi%2C+Russia%29,"Winter Olympic Games (22nd : 2014 : Sochi, Russia)",,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Creator%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Date%3ADecember+2013+-+February+2014,December 2013 - February 2014,,,Long descriptive text,DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/explore?show=Collections&fc=meta_Collector%3AInternational+Internet+Preservation+Consortium,International Internet Preservation Consortium,,,Long descriptive text,Text suggests filtering/sorting; URL suggests filtering/sorting; DOM structure suggests filter,Conflicting indicators
+https://archive-it.org/collections/4357,2014 Winter Olympics,content_link,,URL contains /collections/,,
+https://archive-it.org/organizations/421,"University of Michigan, School of Information",,,Long descriptive text,,
+https://archive-it.org/explore?show=Collections&fc=meta_Subject%3AsocietyAndCulture,Society & Culture,,,,DOM structure suggests filter,
+https://archive-it.org/explore?show=Collections&page=2&totalResultCount=11483,Next Page ►,,,,Text suggests filtering/sorting; URL suggests filtering/sorting,
+https://archive-it.org,Archive It,,,Text suggests content,,
+https://archive-it.org/,Home,,,,,No clear indicators
+https://archive-it.org/learn-more,Learn More,,,,,No clear indicators
+https://archive-it.org/learn-more,About Archive-It,,,Text suggests content,,
+https://archive-it.org/press,News/Press,,,,,No clear indicators
+https://archive-it.org/team,Meet the Team,,,,,No clear indicators
+https://archive-it.org/publications,Publications,,,,,No clear indicators
+https://archive-it.org/contact-us,Contact Us,,,,,No clear indicators
