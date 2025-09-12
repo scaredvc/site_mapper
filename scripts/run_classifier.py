@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-AI Bake-off Experiment Runner
+AI Classification Experiment Runner
 
-This script orchestrates the comparison between GPT-4o and Sightseer models
-for classifying links as content_link vs filter_link on archive-it.org.
+This script compares models for classifying links into:
+- content_link
+- filter_link
+- navigation_link
 
 Usage:
-    python run_bakeoff.py --test-labels test_labels.csv --crawl-data bakeoff_data/crawl_data.json
+    python scripts/run_classifier.py --test-labels tests/test_labels.csv --crawl-data data/crawl_data.json
 """
 
 import argparse
@@ -19,9 +21,10 @@ from typing import Dict, List, Any, Tuple
 from pathlib import Path
 
 # Add src to path so we can import our modules
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+repo_root = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, os.path.join(repo_root, 'src'))
 
-from site_mapper.ai_classifier import GPT4oClassifier, SightseerClassifier
+from site_mapper.generalized_classifier import create_classifier, check_api_keys
 
 
 def load_test_data(test_labels_file: str, crawl_data_file: str) -> List[Dict[str, Any]]:
@@ -56,7 +59,7 @@ def load_test_data(test_labels_file: str, crawl_data_file: str) -> List[Dict[str
                 print(f"Skipping incomplete row: {row}")
                 continue
                 
-            if correct_label not in ['content_link', 'filter_link']:
+            if correct_label not in ['content_link', 'filter_link', 'navigation_link']:
                 print(f"Skipping invalid label '{correct_label}' for {url}")
                 continue
             
@@ -91,19 +94,29 @@ def run_classification_experiment(test_cases: List[Dict[str, Any]],
         Dictionary with experiment results
     """
     if models is None:
-        models = ['gpt4o', 'sightseer']
+        # Use all available models based on API keys
+        available_models = [m for m, has_key in check_api_keys().items() if has_key]
+        if not available_models:
+            print("No API keys found. Please set OPENAI_API_KEY or GOOGLE_API_KEY")
+            return None
+        # Map back to CLI aliases for consistency
+        model_map = {'gpt-4o': 'gpt4o', 'gpt-3.5-turbo': 'gpt35', 'gpt-4o-mini': 'gpt4o-mini'}
+        models = [model_map.get(m, m) for m in available_models]
     
     # Initialize classifiers
     classifiers = {}
     for model_name in models:
         try:
-            if model_name.lower() in ['gpt4o', 'gpt35', 'gpt4o-mini']:
-                classifiers[model_name] = GPT4oClassifier()
-            elif model_name.lower() == 'sightseer':
-                classifiers[model_name] = SightseerClassifier()
-            else:
-                print(f"Unknown model: {model_name}")
-                continue
+            # Map CLI aliases to generalized model IDs
+            aliases = {
+                'gpt4o': 'gpt-4o',
+                'gpt35': 'gpt-3.5-turbo', 
+                'gpt4o-mini': 'gpt-4o-mini'
+            }
+            resolved = aliases.get(model_name.lower(), model_name)
+            
+            classifier = create_classifier(resolved)
+            classifiers[model_name] = classifier
             print(f"Initialized {model_name} classifier")
         except Exception as e:
             print(f"Failed to initialize {model_name}: {e}")
@@ -148,6 +161,7 @@ def run_classification_experiment(test_cases: List[Dict[str, Any]],
                 result['classifications'][model_name] = {
                     'predicted_label': classification_result.get('classification', 'error'),
                     'confidence': classification_result.get('confidence', 0.0),
+                    'log_probability': classification_result.get('log_probability', None),  # Add log probability data
                     'processing_time': classification_result.get('processing_time', 0.0),
                     'cost': classification_result.get('cost', 0.0),
                     'success': classification_result.get('success', False),
@@ -161,7 +175,18 @@ def run_classification_experiment(test_cases: List[Dict[str, Any]],
                 
                 result['classifications'][model_name]['is_correct'] = is_correct
                 
+                # Display result with log probability and uncertainty information
+                confidence = classification_result.get('confidence', 0.0)
+                log_prob = classification_result.get('log_probability', None)
+                is_uncertain = classification_result.get('is_uncertain', False)
+                log_prob_str = f" (log_prob: {log_prob:.3f})" if log_prob is not None else ""
+                uncertainty_str = " ⚠️ UNCERTAIN" if is_uncertain else ""
                 print(f"    Result: {predicted} (correct: {correct}) - {'✓' if is_correct else '✗'}")
+                print(f"      Confidence: {confidence:.3f}{log_prob_str}{uncertainty_str}")
+                if not classification_result.get('success', False):
+                    err = classification_result.get('error', '')
+                    if err:
+                        print(f"      Error detail: {err}")
                 
             except Exception as e:
                 print(f"    Error with {model_name}: {e}")
@@ -191,6 +216,18 @@ def run_classification_experiment(test_cases: List[Dict[str, Any]],
         total_time = sum(r.get('processing_time', 0) for r in model_results)
         total_cost = sum(r.get('cost', 0) for r in model_results)
         
+        # Calculate log probability statistics
+        log_probs = [r.get('log_probability') for r in model_results if r.get('log_probability') is not None]
+        avg_log_prob = sum(log_probs) / len(log_probs) if log_probs else None
+        log_prob_std = None
+        if len(log_probs) > 1:
+            variance = sum((lp - avg_log_prob) ** 2 for lp in log_probs) / (len(log_probs) - 1)
+            log_prob_std = variance ** 0.5
+        
+        # Calculate uncertainty statistics
+        uncertain_predictions = [r for r in model_results if r.get('is_uncertain', False)]
+        uncertainty_rate = len(uncertain_predictions) / total_predictions if total_predictions > 0 else 0
+        
         results['model_stats'][model_name] = {
             'accuracy': correct_predictions / total_predictions if total_predictions > 0 else 0,
             'success_rate': successful_predictions / total_predictions if total_predictions > 0 else 0,
@@ -198,7 +235,12 @@ def run_classification_experiment(test_cases: List[Dict[str, Any]],
             'total_predictions': total_predictions,
             'total_time': total_time,
             'total_cost': total_cost,
-            'avg_time_per_prediction': total_time / total_predictions if total_predictions > 0 else 0
+            'avg_time_per_prediction': total_time / total_predictions if total_predictions > 0 else 0,
+            'avg_log_probability': avg_log_prob,
+            'log_probability_std': log_prob_std,
+            'log_probability_count': len(log_probs),
+            'uncertain_predictions': len(uncertain_predictions),
+            'uncertainty_rate': uncertainty_rate
         }
     
     # Get final stats from classifiers
@@ -260,6 +302,16 @@ def analyze_results(results: Dict[str, Any]) -> None:
         print(f"  Total Time: {stats['total_time']:.2f} seconds")
         print(f"  Total Cost: ${stats['total_cost']:.4f}")
         print(f"  Avg Time per Prediction: {stats['avg_time_per_prediction']:.2f} seconds")
+        
+        # Log probability analysis
+        if 'avg_log_probability' in stats:
+            print(f"  Avg Log Probability: {stats['avg_log_probability']:.3f}")
+        if 'log_probability_std' in stats:
+            print(f"  Log Probability Std Dev: {stats['log_probability_std']:.3f}")
+        
+        # Uncertainty analysis
+        if 'uncertain_predictions' in stats:
+            print(f"  Uncertain Predictions: {stats['uncertain_predictions']}/{stats['total_predictions']} ({stats['uncertainty_rate']:.1%})")
     
     # Failure analysis
     print("\n" + "-"*50)
@@ -311,9 +363,9 @@ def main():
                        help='Path to CSV file with test labels')
     parser.add_argument('--crawl-data', required=True,
                        help='Path to JSON file with crawl data')
-    parser.add_argument('--models', nargs='+', choices=['gpt4o', 'gpt35', 'gpt4o-mini', 'sightseer'],
-                       default=['gpt35', 'sightseer'],
-                       help='Models to test (default: both)')
+    parser.add_argument('--models', nargs='+', choices=['gpt4o', 'gpt35', 'gpt4o-mini'],
+                       default=None,
+                       help='Models to test (default: all available based on API keys)')
     parser.add_argument('--output', default='bakeoff_results.json',
                        help='Output file for results (default: bakeoff_results.json)')
     
@@ -328,13 +380,19 @@ def main():
         print(f"Error: Crawl data file not found: {args.crawl_data}")
         return 1
     
-    # Check for API keys
-    if 'gpt4o' in args.models and not os.getenv('OPENAI_API_KEY'):
-        print("Error: OPENAI_API_KEY not found in environment variables")
-        return 1
+    # Check for API keys for requested models
+    api_status = check_api_keys()
+    aliases = {'gpt4o': 'gpt-4o', 'gpt35': 'gpt-3.5-turbo', 'gpt4o-mini': 'gpt-4o-mini'}
     
-    if 'sightseer' in args.models and not os.getenv('HUGGING_FACE_API_TOKEN'):
-        print("Error: HUGGING_FACE_API_TOKEN not found in environment variables")
+    missing_keys = []
+    for model in args.models:
+        resolved = aliases.get(model.lower(), model)
+        if not api_status.get(resolved, False):
+            missing_keys.append(f"{model} (needs API key for {resolved})")
+    
+    if missing_keys:
+        print(f"Error: Missing API keys for: {', '.join(missing_keys)}")
+        print("Please set OPENAI_API_KEY and/or GOOGLE_API_KEY in environment variables")
         return 1
     
     try:
