@@ -11,8 +11,12 @@ def dom_hierarchy(page: Page, element) -> str:
                 let selector = current.tagName.toLowerCase();
                 if (current.id) {
                     selector += '#' + current.id;
-                } else if (current.className) {
-                    selector += '.' + current.className.split(' ').join('.');
+                } else if (current.className && current.className.trim()) {
+                    // Filter out empty class names and join with dots
+                    const classes = current.className.trim().split(/\s+/).filter(cls => cls);
+                    if (classes.length > 0) {
+                        selector += '.' + classes.join('.');
+                    }
                 }
                 path.unshift(selector);
                 current = current.parentElement;
@@ -42,7 +46,7 @@ def css_classes(page: Page, element) -> list[str]:
     return page.evaluate("(element) => Array.from(element.classList)", element)
 
 
-def computed_styles(page: Page, element, properties: list[str] = None) -> dict[str, str]:
+def computed_styles(page: Page, element, properties: list[str] | None = None) -> dict[str, str]:
     """Get computed CSS styles for specified properties"""
     if properties is None:
         properties = ['color', 'background-color', 'font-size', 'font-weight']
