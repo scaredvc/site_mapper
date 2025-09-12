@@ -50,12 +50,10 @@ bakeoff_results.json
 results/*.json
 *.log
 *.tmp
+screenshots/
 
 # API keys and secrets
 .env
 secrets.json
 config.json
 
-# Large data files (optional - uncomment if you don't want to track them)
-# bakeoff_data/
-# test_labels.csv
